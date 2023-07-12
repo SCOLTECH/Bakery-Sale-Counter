@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:background="@color/white"
+    tools:context=".creditCardPage">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt1"
+        android:textStyle="bold"
+        android:text="Enter Credit Card Details"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt1"
+        android:id="@+id/txt2"
+        android:textColorHint="#807979"
+        android:hint="Enter your Name"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textColorHint="#807979"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt2"
+        android:id="@+id/txt3"
+        android:hint="Enter Card Number"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textColorHint="#807979"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt3"
+        android:id="@+id/txt4"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:hint="Enter Expiration date"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textColorHint="#807979"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt4"
+        android:id="@+id/txt5"
+        android:hint="Enter Security code"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textColorHint="#807979"
+        android:textSize="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt5"
+        android:id="@+id/txt6"
+        android:hint="Enter Shipping Address"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:background="#3F51B5"
+        android:text="save"
+        android:id="@+id/btn_next"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txt6"
+        android:textSize="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:minHeight="50dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
