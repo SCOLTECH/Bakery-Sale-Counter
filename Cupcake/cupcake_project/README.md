@@ -11,8 +11,8 @@ TODO
 Pre-requisites
 --------------
 * Experience with Kotlin syntax.
-* How to create and run a project in Android Studio.
-* How to create composable functions 
+* Create and run a project in Android Studio.
+* Create composable functions 
 * TODO
 
 
